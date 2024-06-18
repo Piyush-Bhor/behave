@@ -28,3 +28,4 @@ requests
 
 # -- DEVELOPMENT SUPPORT: Check "invoke.yaml" config-file(s)
 yamllint >= 1.32.0; python_version >= '3.7'
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
